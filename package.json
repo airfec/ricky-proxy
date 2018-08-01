@@ -1,0 +1,24 @@
+{
+  "name": "ricky-proxy",
+  "version": "1.0.0",
+  "description": "Airfec project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airfec/ricky-proxy.git"
+  },
+  "author": "Ricardo Roque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airfec/ricky-proxy/issues"
+  },
+  "homepage": "https://github.com/airfec/ricky-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http-proxy-middleware": "^0.18.0"
+  }
+}
